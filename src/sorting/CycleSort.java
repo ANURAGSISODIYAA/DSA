@@ -10,7 +10,7 @@ public class CycleSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    public static void cycle(int arr[]){
+    public static void cycle(int[] arr){
        int i=0;
         while(i<arr.length) {
             int correct =arr[i] - 1;
