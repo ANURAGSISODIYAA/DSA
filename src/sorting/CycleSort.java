@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class CycleSort {
 
+   // if [0 to N] -----> value = index
+   // if [1 to N] -----> value = index-1
+
     public static void main(String[] abc){
         int[] arr = {5, 3, 4, 1, 2};
         cycle(arr);
